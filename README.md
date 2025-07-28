@@ -8,7 +8,7 @@ The chess transformation pipeline is constructed with dbt models: https://github
 The minimal setup we are creating is as follows:
 
 <p align = center>
-    <img src="https://github.com/Filpill/airflow_chess/blob/main/diagrams/airflow_diagram.png " alt="drawing" width="800"/>
+    <img src="https://github.com/Filpill/airflow_chess/blob/main/diagrams/airflow_diagram.excalidraw.png " alt="drawing" width="800"/>
 </p>
 
 - Each time the DAG is triggered, we will clone the latest version of the **dbt_chess** repo
